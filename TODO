@@ -1,3 +1,6 @@
+1- Reference everything from substrate/polkadot and make it work for Moonbeam/Ethereum
+2- Do deno FFI experiment with MenmonicPhrase type
+
 Investigate if you can embed ganache(and its dependencies)
 
 Move from TS -> Solidity -> !ink
@@ -5,3 +8,7 @@ Move from TS -> Solidity -> !ink
 Rewrite tests in each scenario
 Generate nice documentation
 Build a webserver from these functions(make it auto generated from contract)
+
+Overhead of runtime types on the runtime/contract costs?(Don't add) -> but contracts actually want to have it internally(where rust yield itself well)
+
+Make rust binding work in deno. Build deno test infra on qunit like test cases
