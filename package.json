@@ -1,0 +1,39 @@
+{
+  "name": "contracts",
+  "version": "0.0.1",
+  "description": "World-shifting financial contracts",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "lib": "node --loader ts-node/esm/transpile-only index.ts",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izelnakri/contracts.git"
+  },
+  "keywords": [
+    "smart-contracts",
+    "contract",
+    "finance",
+    "blockchain",
+    "smart-contract",
+    "ethereum",
+    "polkadot",
+    "transaction"
+  ],
+  "author": "Izel Nakri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/izelnakri/contracts/issues"
+  },
+  "homepage": "https://github.com/izelnakri/contracts#readme",
+  "volta": {
+    "node": "20.3.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
