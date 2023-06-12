@@ -1,0 +1,7 @@
+Investigate if you can embed ganache(and its dependencies)
+
+Move from TS -> Solidity -> !ink
+
+Rewrite tests in each scenario
+Generate nice documentation
+Build a webserver from these functions(make it auto generated from contract)
